@@ -1,11 +1,25 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
 .env
-runs/
-datasets/
+
+# Dataset
 train/
 valid/
 test/
+
+# Training outputs and model weights
+runs/
 *.pt
+
+# macOS
 .DS_Store
+
+# Python cache
+.pytest_cache/
